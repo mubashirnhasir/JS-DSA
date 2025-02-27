@@ -10,12 +10,11 @@
 //             return
 //         }
 //     }
-    
-//         console.log("Student Not Found in the given list")
+//     console.log("Student Not Found in the given list")
     
 // }
 
-// findStudent(studentsData,"Afan")
+// findStudent(studentsData,"Mubashir")
 
 
 
@@ -36,6 +35,41 @@ class myArray{
     get(key){
         return this.data[key]
     }
+    pop(){
+       const lastItem = this.data[this.length - 1] 
+       delete this.data[this.length - 1]
+       this.length--
+       return lastItem
+    
+    }
+
+    shift(){
+        const firstItem = this.data[0]
+        
+        for(let i =0; i < this.length;i++){
+            this.data[i] = this.data[i+1]
+        }
+
+        delete this.data[this.length - 1]
+        this.length--
+
+        return firstItem
+        
+    }
+
+
+    deleteByIndex(index){
+        const item = this.data[index]
+
+        for(let i =0; i<this.length;i++){
+            this.data[i] =this.data[i+1]
+        }
+
+        delete this.data[this.length - 1]
+        this.length--
+        return item
+
+    }
 }
 
 const myDefinedArray = new myArray()
@@ -43,9 +77,23 @@ const myDefinedArray = new myArray()
 myDefinedArray.push("Affab")
 myDefinedArray.push("salman")
 myDefinedArray.push("Ahmed")
+myDefinedArray.push("mjj")
+
+// console.log(myDefinedArray);
+
+// myDefinedArray.pop()
+
+// console.log(myDefinedArray)
+
+// myDefinedArray.shift() 
 
 console.log(myDefinedArray);
 
+myDefinedArray.deleteByIndex(1)
 
-console.log(myDefinedArray.get(1))
+console.log(myDefinedArray);
+
+myDefinedArray.deleteByIndex(2)
+
+console.log(myDefinedArray);
 
