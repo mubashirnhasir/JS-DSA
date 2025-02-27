@@ -79,13 +79,13 @@ myDefinedArray.push("salman")
 myDefinedArray.push("Ahmed")
 myDefinedArray.push("mjj")
 
-// console.log(myDefinedArray);
+console.log(myDefinedArray);
 
-// myDefinedArray.pop()
+myDefinedArray.pop()
 
-// console.log(myDefinedArray)
+console.log(myDefinedArray)
 
-// myDefinedArray.shift() 
+myDefinedArray.shift() 
 
 console.log(myDefinedArray);
 
