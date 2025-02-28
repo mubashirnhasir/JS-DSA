@@ -62,3 +62,13 @@
 
 // console.log(reverseInt(1234));
 
+// const caseStr = (str)=>{
+            
+//     return str
+//         .toLowerCase()
+//         .split(" ")
+//         .map((item)=> item[0].toUpperCase() + item.slice(1) )
+//         .join(" ")
+    
+// }
+// console.log(caseStr("hello world"))
