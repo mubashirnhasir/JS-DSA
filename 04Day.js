@@ -78,8 +78,25 @@
 // console.log(chunkArray([0,1,2,3,4,5,6],2))
 
 
+// Two Sum Problem 
 
+// const twoSum = (numbers,target)=>{
 
+//     for(let i =0; i<numbers.length;i++){
+//         for(let j=i+1; j< numbers.length ;j++){
+//             if(numbers[i] + numbers[j] === target){
+//                 return [i,j]
+//             }
+//         }
+
+//     }
+
+//     return []
+// }
+ 
+
+// const res = twoSum([2,7,11,15],8)
+// console.log(res)
 
 
 
