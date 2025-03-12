@@ -42,27 +42,27 @@
 // INR Denomination
 
 
-let amount = 280
-console.log("For Given Amount ---- ", amount)
-if(amount >=500){
-    console.log("500 Rupees Note",Math.floor(amount/500))
-    amount = amount%500
-}
-if(amount >200 && amount <500 ){
-    console.log("200 Rupees Note :",Math.floor(amount/200))
-    amount = amount%200
-}
-if(amount >100 && amount <200 ){
-    console.log("100 Rupees Note :",Math.floor(amount/100))
-    amount = amount%100
-}
-if(amount >50 && amount <100 ){
-    console.log("50 Rupees Note :",Math.floor(amount/50))
-    amount = amount%50
-}
-if(amount >20 && amount <50 ){
-    console.log("20 Rupees Note :",Math.floor(amount/20))
-    amount = amount%20
-}
+// let amount = 280
+// console.log("For Given Amount ---- ", amount)
+// if(amount >=500){
+//     console.log("500 Rupees Note",Math.floor(amount/500))
+//     amount = amount%500
+// }
+// if(amount >200 && amount <500 ){
+//     console.log("200 Rupees Note :",Math.floor(amount/200))
+//     amount = amount%200
+// }
+// if(amount >100 && amount <200 ){
+//     console.log("100 Rupees Note :",Math.floor(amount/100))
+//     amount = amount%100
+// }
+// if(amount >50 && amount <100 ){
+//     console.log("50 Rupees Note :",Math.floor(amount/50))
+//     amount = amount%50
+// }
+// if(amount >20 && amount <50 ){
+//     console.log("20 Rupees Note :",Math.floor(amount/20))
+//     amount = amount%20
+// }
 
-console.log("Chillar Rupees :",amount)
+// console.log("Chillar Rupees :",amount)
