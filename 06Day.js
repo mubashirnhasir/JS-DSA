@@ -109,3 +109,42 @@
 // }
 
 // console.log(isPrime(12))
+
+
+// console.log(
+//     Math.floor(3812/10)
+//     );
+
+// console.log(12%10);
+
+
+
+
+// sum of all numbers 
+
+// var n =1234;
+// var sum =0;
+// while(n>0){
+//     var rem = n%10;
+//     sum =sum + rem;
+//     n = Math.floor(n/10)
+// }
+
+// console.log(sum)
+
+//Reverse of the number
+// var n =1234
+// var rev =0;
+// while(n>0){
+//     var rem = n%10;
+//     rev = rev*10 +rem;
+//     n = Math.floor(n/10)
+// }
+
+// console.log(rev);
+
+
+// Strong Number 
+
+// 145 is a number whose each number's factorial will sum up to given number is called a string number
+
